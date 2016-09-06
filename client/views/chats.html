@@ -1,0 +1,18 @@
+<template name="chats">
+    <table class="table">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Descrição</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each chats}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{descricao}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</template>
